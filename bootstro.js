@@ -180,7 +180,7 @@ $(document).ready(function(){
             }
             p.title = $el.attr('data-bootstro-title') || '';
             if (p.title != '' && t != '')
-                p.title = t + ' - ' + p.title;
+                p.title = t + p.title;
             else if (p.title == '') 
                 p.title = t;
 
